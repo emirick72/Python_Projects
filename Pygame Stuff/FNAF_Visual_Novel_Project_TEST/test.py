@@ -4,7 +4,7 @@ Ideally, I want the final project to be made using Pygame,
 but for now I'm using the console to see what the output would look like.
 '''
 
-# Welcome the player
+# Welcome the player to the game
 print("Welcome to (Untitled FNAF Fangame)!")
 
 # character variables
