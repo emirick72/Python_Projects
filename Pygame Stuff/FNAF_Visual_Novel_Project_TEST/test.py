@@ -25,15 +25,15 @@ while True:
         player_character = input()
         player_choice = int(player_character) # convert input (string) to int
         if player_choice == 1:
-            print("You chose Mike Schmidt")
+            print("You chose Mike Schmidt.")
             break
         elif player_choice == 2:
-            print("You chose Jeremy Fitzgerald")
+            print("You chose Jeremy Fitzgerald.")
             break
         elif player_choice == 3:
-            print("You chose Vanessa Shelly")
+            print("You chose Vanessa Shelly.")
             break
         else:
             print("That input is not valid. PLease enter a valid number (1, 2, or 3).")
     except ValueError:
-        print("Please enter a number:")
+        print("Please enter a number")
